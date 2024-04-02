@@ -1,0 +1,81 @@
+@use 'app' as v;
+
+.container {
+  display: flex;
+  position: relative;
+}
+
+.container p {
+  margin: 0;
+}
+
+.sidebar__button {
+  justify-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+  text-align: start;
+  max-width: 210px;
+
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+
+  background: transparent;
+
+  & svg path {
+    fill: #ffffff;
+  }
+
+  & svg g rect {
+    fill: #ffffff;
+  }
+}
+
+.sidebar__button__section {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.sidebar__button p {
+  max-width: 100px;
+  max-height: 35px;
+  word-break: break-word;
+  overflow: hidden;
+}
+
+.sidebar__button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar__button__section svg {
+  width: 24px;
+  height: 24px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  min-width: 100px;
+
+  color: #1e1d21;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  background: transparent;
+
+  & svg path {
+    fill: #1e1d21;
+  }
+}

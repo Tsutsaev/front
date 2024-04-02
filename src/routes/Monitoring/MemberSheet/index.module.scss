@@ -1,0 +1,57 @@
+@use 'app' as v;
+
+.container {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+
+  padding: 20px;
+}
+
+.header {
+  color: #1e1d21;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid red;
+  height: 100%;
+  width: 100%;
+}
+
+.cardList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.smallCard {
+  height: 100px;
+}
+
+.largeCard {
+  height: 200px;
+}
+
+.column {
+  flex: 1;
+}

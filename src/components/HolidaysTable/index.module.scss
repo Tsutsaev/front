@@ -1,0 +1,44 @@
+@use 'app' as v;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  background-color: transparent;
+
+  &:hover {
+    svg path {
+      fill: #9a9494;
+    }
+  }
+}
+
+.project {
+  padding: 0 12px;
+}
+.button_container {
+  display: flex;
+}
+
+.edit {
+  border-radius: 8px;
+  background: #ef5d22;
+  padding: 3.2px;
+  padding-bottom: 0;
+  align-items: center;
+  svg {
+    align-items: center;
+  }
+
+  svg path {
+    fill: white;
+  }
+
+  &:hover {
+    background-color: #fa976e;
+  }
+}

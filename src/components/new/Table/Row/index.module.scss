@@ -1,0 +1,51 @@
+@use 'app' as v;
+
+.container {
+  display: grid;
+  gap: 15px;
+  border-top: 1px solid #d8d8d8;
+  background: #fff;
+  align-items: start;
+
+  padding: 10px 15px;
+  @media (max-width: 1000px) {
+    gap: 15px;
+  }
+}
+
+.cell {
+  display: flex;
+  padding: 30px;
+
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.working__day {
+  background: #fff;
+}
+
+.red {
+  background: #ffd8c8;
+  border-top: 1px solid #ffffff;
+}
+
+.blue {
+  background: #c6d3fe;
+  border-top: 1px solid #ffffff;
+}
+
+.gray {
+  background: #f8f8f8;
+}
+
+.white {
+  background: #fff;
+}
+
+.not__active {
+  background: #e2e3ea;
+}

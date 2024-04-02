@@ -1,0 +1,62 @@
+@use 'app' as v;
+
+.container {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #1e1d21;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.text {
+  display: flex;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  word-wrap: break-word;
+
+  margin: 0;
+  padding: 12px;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+}
+
+.link {
+  display: flex;
+  cursor: pointer;
+  color: #3865f8;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+  margin: 0;
+  padding: 12px;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+}

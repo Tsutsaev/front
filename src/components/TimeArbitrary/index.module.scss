@@ -1,0 +1,92 @@
+@use 'app' as v;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  background-color: transparent;
+
+  &:hover {
+    svg path {
+      fill: #9a9494;
+    }
+  }
+}
+
+.payment {
+  svg path {
+    fill: #ef5d22;
+  }
+}
+
+.button_container {
+  display: flex;
+}
+
+.edit {
+  border-radius: 8px;
+  background: #ef5d22;
+  padding: 3.2px;
+  padding-bottom: 0;
+  align-items: center;
+
+  svg {
+    align-items: center;
+  }
+
+  svg path {
+    fill: white;
+  }
+
+  &:hover {
+    background-color: #fa976e;
+  }
+}
+
+.off__other {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  background-color: #cfccc4;
+  cursor: default;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.money {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+.off {
+  display: flex;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  word-break: break-word;
+  margin: 0;
+  padding: 12px;
+
+  border: 1px solid transparent;
+  min-height: 18.4px;
+  width: 80px;
+  padding: 5px;
+  height: 30px;
+  min-height: 30px;
+}

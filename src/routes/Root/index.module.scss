@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: 240px auto;
+  align-items: stretch;
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+}
+
+.page__content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+}

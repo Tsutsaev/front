@@ -1,0 +1,15 @@
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+  justify-content: left;
+  align-items: flex-end;
+
+  background-color: transparent;
+}
+
+.time {
+  display: flex;
+  padding-bottom: 9px;
+}

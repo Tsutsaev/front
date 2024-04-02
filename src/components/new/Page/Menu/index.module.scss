@@ -1,0 +1,15 @@
+.header {
+  color: #1e1d21;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.8;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  min-height: 40px;
+}

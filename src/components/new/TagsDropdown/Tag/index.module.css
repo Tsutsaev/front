@@ -1,0 +1,16 @@
+.tag__container {
+    display: flex;
+    padding: 6px 8px;
+    align-items: center;
+    gap: 8px;
+    font-weight: 400;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid rgba(24, 24, 29, 0.25);
+    color: rgba(24, 24, 29, 0.75);
+    max-width: 280px;
+}
+
+.tag__container g path {
+    fill: rgba(24, 24, 29, 0.75);
+}

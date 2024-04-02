@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 120px;
+}
+
+.display {
+  border: 1px solid rgba(24, 24, 29, 0.14);
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+  padding: 0 0 0 12px;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.custom {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+}
+
+.today {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+
+  color: #918f97;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.long {
+  height: 40px;
+  width: 500px;
+}

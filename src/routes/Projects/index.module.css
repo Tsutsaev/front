@@ -1,0 +1,141 @@
+.page__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f8f8f8;
+}
+
+.page__title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.page__header__area {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.table__area {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.table__header {
+  display: grid;
+  background: #f2f2f2;
+  grid-template-columns: auto 185px 95px 125px 100px 150px;
+  padding: 25px;
+  font-size: 18px;
+  align-content: center;
+  font-weight: 700;
+  gap: 8px;
+}
+
+.table__record {
+  gap: 8px;
+  border-top: 1px solid #d8d8d8;
+  display: grid;
+  grid-template-columns: auto 185px 95px 125px 100px 150px;
+  padding: 20px 25px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1240px) {
+  .table__area {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: clip;
+    font-size: 16px;
+  }
+
+  .table__record {
+    display: grid;
+    grid-template-columns: auto 120px 95px 125px 100px 70px;
+    padding: 18px;
+    border-bottom: 1px solid rgba(24, 24, 29, 0.07);
+    align-items: flex-start;
+  }
+
+  .table__header {
+    display: grid;
+    background: #f2f2f2;
+    grid-template-columns: auto 120px 95px 125px 100px 70px;
+    padding: 18px 20px;
+    font-size: 16px;
+    align-content: center;
+    font-weight: 700;
+  }
+}
+
+.link__to__project {
+  background: 0;
+  color: #3865f8;
+  text-decoration: underline;
+  font-style: normal;
+  font-size: 16px;
+  text-underline-offset: 3px;
+  font-weight: 400;
+}
+
+.project__color {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.record__tag {
+  padding: 4px 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgba(24, 24, 29, 0.75);
+  color: white;
+  display: flex;
+}
+
+.tags__list {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search__input {
+  border: 1px solid rgba(24, 24, 29, 0.25);
+  padding: 9px 21px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.submit__button {
+  padding: 12px;
+  border-radius: 6px;
+  background: #0a53be;
+  color: white;
+  font-size: 16px;
+}
+
+.clear__filters__button {
+  padding: 12px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.43);
+  font-size: 16px;
+  border: 1px solid rgba(24, 24, 29, 0.25);
+}
+
+.filters__area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px 0;
+}
+
+.filters__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}

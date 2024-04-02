@@ -1,0 +1,34 @@
+.editing {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+
+  align-items: center;
+  cursor: pointer;
+}
+
+.button {
+  background-color: transparent;
+}
+
+.text {
+  cursor: pointer;
+
+  display: flex;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 40px;
+  width: 100%;
+
+  margin: 0;
+  padding: 10.5px 12px;
+
+  border: 1px solid transparent;
+}
+
+.error {
+  border: 1px solid red;
+}

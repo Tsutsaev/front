@@ -1,0 +1,60 @@
+.editing {
+  display: flex;
+  gap: 5px;
+
+  align-items: center;
+
+  cursor: pointer;
+
+  min-width: 124px;
+}
+
+.button {
+  background-color: transparent;
+}
+
+.text {
+  display: flex;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding: 10.5px 2px;
+  margin: 0;
+
+  border: 1px solid transparent;
+  min-height: 18.4px;
+}
+
+.project {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  word-break: break-word;
+  height: 40px;
+  svg {
+    min-height: 7px;
+    min-width: 7px;
+  }
+
+  svg {
+    @media (max-width: 1000px) {
+      height: 7px;
+      width: 7px;
+    }
+  }
+}
+
+.sm {
+  min-width: 100px;
+}
+
+.md {
+  min-width: 200px;
+}
+
+.bg {
+  min-width: 300px;
+}

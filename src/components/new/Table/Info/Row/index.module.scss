@@ -1,0 +1,40 @@
+@use 'app' as v;
+
+.row {
+  display: grid;
+  gap: 35px;
+
+  grid-template-columns: 300px 500px;
+  align-items: center;
+}
+
+.title {
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 300px;
+}
+
+.button {
+  background-color: transparent;
+  padding: 3px;
+  padding-bottom: 0;
+  &:hover {
+    svg path {
+      fill: #9a9494;
+    }
+
+    svg g .red__ruble {
+      fill: #9a9494;
+      stroke: #9a9494;
+    }
+  }
+}
+
+.action {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,100 @@
+.button__with__icon {
+  border: 0;
+  background: 0;
+  padding: 0;
+  overflow: clip;
+  transition: 0.3s;
+  display: flex;
+}
+.submit__button {
+  padding: 10px 24px;
+  background: rgba(56, 101, 248, 1);
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  font-weight: 400;
+  border: 1px solid rgba(56, 101, 248, 1);
+  height: 40px;
+}
+
+.submit__button:hover {
+  background: #0d2a69;
+}
+
+.reset__button {
+  padding: 10px 24px;
+  color: rgba(56, 101, 248, 1);
+  font-size: 16px;
+  border: 1px solid rgba(56, 101, 248, 1);
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+}
+
+.check__button {
+  border: 0;
+  border-radius: 8px;
+  padding: 3px;
+  overflow: clip;
+  transition: 0.3s;
+  display: flex;
+
+  background: #ef5d22 0 0;
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+  svg g path {
+    fill: white;
+  }
+}
+
+.reset__button:hover {
+  background: #0a53be;
+  color: #ffffff;
+}
+
+.button__with__icon:hover {
+  opacity: 0.66;
+}
+
+.submit__button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.reset__button svg {
+  width: 2px;
+  height: 24px;
+}
+
+.submit__button g path {
+  fill: #ffffff;
+}
+
+.reset__button g path {
+  fill: #0a53be;
+}
+
+.reset__button:hover g path {
+  fill: #ffffff;
+}
+
+
+.disabled {
+  padding: 10px 24px;
+  background: #f2f2f2;
+  color: #1e1d21;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  cursor: default;
+  gap: 8px;
+  font-weight: 400;
+  border: 1px solid #1e1d21;
+  height: 40px;
+}

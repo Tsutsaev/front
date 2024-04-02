@@ -1,0 +1,42 @@
+.dropdown__tags__container {
+    width: 100%;
+    min-height: 40px;
+    min-width: 100px;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 9px;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.tags_dropdown__list {
+    font-size: 16px;
+    display: flex;
+    max-height: 250px;
+    position: absolute;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 100%;
+    z-index: 10;
+    border: 1px solid rgba(24, 24, 29, 0.25);
+    overflow-y: scroll;
+}
+
+
+section::-webkit-scrollbar {
+    width: 4px;
+}
+
+section::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+section::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 3px;
+}

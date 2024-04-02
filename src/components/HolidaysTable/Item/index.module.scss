@@ -1,0 +1,86 @@
+@use 'app' as v;
+
+.container {
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+
+  padding: 50px;
+}
+
+.text {
+  display: flex;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  min-width: 100px;
+  margin: 0;
+  padding: 5px;
+
+  border: 1px solid rgba(24, 24, 29, 0.14);
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 9px 12px;
+  border: none;
+  border: 1px solid transparent;
+}
+
+.buttons {
+  display: flex;
+  gap: 7px;
+
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  padding: 3px;
+  padding-bottom: 0;
+  &:hover {
+    svg path {
+      fill: #9a9494;
+    }
+  }
+}
+
+.edit {
+  border-radius: 8px;
+  background: #ef5d22;
+  padding: 3px;
+  padding-bottom: 0;
+  align-items: center;
+  svg {
+    align-items: center;
+  }
+
+  svg path {
+    fill: white;
+  }
+
+  &:hover {
+    background-color: #fa976e;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  cursor: default;
+}
+
+.manager {
+  cursor: pointer;
+}
+
+.empty {
+  width: 61px;
+  height: 30px;
+}

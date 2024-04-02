@@ -1,0 +1,17 @@
+
+.record__tag {
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    background: rgba(24, 24, 29, 0.75);
+    color: white;
+    display: flex;
+}
+
+.tags__list {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 40px;
+}

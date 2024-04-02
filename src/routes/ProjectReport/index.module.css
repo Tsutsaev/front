@@ -1,0 +1,42 @@
+.table__area {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__columns {
+  display: grid;
+  background: rgba(24, 24, 29, 0.07);
+  grid-template-columns: auto 200px 155px 150px 100px;
+  padding: 18px;
+  font-size: 16px;
+  align-content: center;
+  font-weight: 700;
+}
+
+.table__row {
+  display: grid;
+  grid-template-columns: auto 200px 155px 150px 100px;
+  padding: 18px;
+  font-size: 16px;
+  align-content: center;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(24, 24, 29, 0.25);
+}
+
+.table__rows {
+  display: flex;
+  flex-direction: column;
+}
+.link__to__project {
+  background: 0;
+  color: #1750cb;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.list__item__container {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(24, 24, 29, 0.25);
+}
+
+.list__item__container:hover {
+    background: rgba(24, 24, 29, 0.07);
+}

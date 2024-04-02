@@ -1,0 +1,74 @@
+@use 'app' as v;
+
+.container {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 25px;
+  gap: 30px;
+}
+
+.header {
+  color: #1e1d21;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.variable {
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 170px;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 8px;
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.not__access {
+  background-color: #f2f2f2;
+
+  border: 1px solid #d8d8d8;
+
+  svg g path {
+    fill: #5c5b5d;
+  }
+}
+
+.access {
+  background-color: #214ddd;
+  border: 1px solid #214ddd;
+
+  svg g path {
+    fill: #ffffff;
+  }
+}

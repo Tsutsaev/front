@@ -1,0 +1,18 @@
+@use 'app' as v;
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+  width: 100%;
+  min-height: 70px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #a3a3a3;
+  padding-right: 20px;
+}
+
+.navbar img {
+  max-width: 45px;
+}

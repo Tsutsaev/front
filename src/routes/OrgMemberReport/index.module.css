@@ -1,0 +1,27 @@
+.page__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f8f8f8;
+}
+
+.link__to__project {
+  background: 0;
+  color: #1750cb;
+  text-decoration: underline;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.filters__area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filters__container {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,17 @@
+@use 'app' as v;
+
+.panel {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+}
+
+.empty {
+  display: flex;
+  border-top: 1px solid #d8d8d8;
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 15px;
+}

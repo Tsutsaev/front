@@ -1,0 +1,15 @@
+.react-datepicker__header {
+  background-color: #c6d3fe;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: black;
+}
+
+.react-datepicker__day--weekend {
+  color: rgb(229, 81, 106); /* Розовый цвет */
+}
+
+.react-datepicker__day--weekend.react-datepicker__day--selected {
+  color: rgb(240, 237, 237);
+}

@@ -1,0 +1,35 @@
+.react-datepicker__header {
+  background-color: #c6d3fe;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: black;
+}
+
+.day__container {
+  border-radius: 0;
+}
+
+.day__container:hover {
+  border-radius: 0;
+}
+
+.react-datepicker-wrapper {
+  position: static;
+}
+
+.react-datepicker__input-container {
+  position: static;
+}
+.react-datepicker__day--weekend {
+  border-radius: 0;
+  color: rgb(229, 81, 106); /* Розовый цвет */
+}
+
+.react-datepicker__day--weekend:hover {
+  border-radius: 0;
+}
+
+.react-datepicker__day--weekend.react-datepicker__day--selected {
+  color: rgb(240, 237, 237);
+}

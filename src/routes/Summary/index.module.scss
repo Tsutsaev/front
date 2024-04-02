@@ -1,0 +1,50 @@
+@use 'app' as v;
+
+.container {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+
+  padding: 20px;
+}
+
+.header {
+  color: #1e1d21;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.8;
+  padding: 0px 27px;
+}
+
+.text {
+  display: flex;
+  color: #1e1d21;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 100%;
+  justify-content: center;
+
+  width: 100%;
+  word-break: break-word;
+
+  margin: 0;
+  padding: 10.5px 12px;
+
+  border: 1px solid transparent;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

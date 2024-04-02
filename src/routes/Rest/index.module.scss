@@ -1,0 +1,95 @@
+.page__title {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.page__container {
+  background: #F8F8F8;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+  gap: 25px;
+}
+
+.page__icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+}
+
+.page__icon svg g path {
+  fill: #3865F8;
+}
+
+.edit {
+  display: flex;
+  background: none;
+  align-items: center;
+  padding: 0;
+}
+
+.edit svg g path {
+  fill: #0a53be;
+}
+
+.tags__item {
+  padding: 4px 8px;
+  font-size: 15px;
+}
+
+.agreed__button {
+  border: 0;
+  padding: 0;
+  display: flex;
+  background: 0;
+  justify-self: center;
+}
+
+.tags__table__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-self: end;
+}
+
+.page__header__area {
+  display: flex;
+  gap: 12px;
+}
+
+.date__filter {
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid rgba(24, 24, 29, 0.14);
+  border-radius: 6px;
+}
+
+.filters__area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filters__buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.submit__button {
+  padding: 12px;
+  background: #0a53be;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.clear__button {
+  padding: 12px;
+  color: #1750cb;
+  font-size: 16px;
+  border: 1px solid #1750cb;
+  border-radius: 6px;
+}

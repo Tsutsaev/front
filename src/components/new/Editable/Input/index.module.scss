@@ -1,0 +1,80 @@
+.editing {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button {
+  background-color: transparent;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.text {
+  overflow: auto;
+  display: flex;
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  height: 100%;
+
+  width: 100%;
+  word-break: break-word;
+
+  margin: 0;
+  padding: 10.5px 12px;
+
+  border: 1px solid transparent;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+  }
+}
+
+.input {
+  height: 40px;
+  min-height: 40px;
+  min-width: 500px;
+}
+
+.time {
+  min-width: 80px;
+  width: 80px;
+  min-height: 40px;
+  height: 40px;
+}
+
+.textarea {
+  overflow: auto;
+  height: 75px;
+  min-height: 75px;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+.mini {
+  width: 80px;
+  min-width: 80px;
+  padding: 5px;
+  height: 30px;
+  min-height: 30px;
+}

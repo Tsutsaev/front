@@ -1,0 +1,44 @@
+.text {
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 500px;
+  width: 500px;
+  border: 1px solid rgba(24, 24, 29, 0.14);
+  padding: 10.5px 12px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+  }
+}
+
+.row {
+  display: grid;
+  gap: 35px;
+
+  grid-template-columns: 300px 500px;
+  align-items: center;
+}
+
+.title {
+  color: #1e1d21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 300px;
+}
+
+.error {
+  border-color: red;
+}

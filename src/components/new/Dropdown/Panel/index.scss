@@ -1,0 +1,17 @@
+.custom-select__menu-list::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+
+  @media (max-width: 1300px) {
+    width: 6px;
+  }
+
+  @media (max-width: 1000px) {
+    width: 4px;
+  }
+}
+
+.custom-select__menu-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}

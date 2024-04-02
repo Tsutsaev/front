@@ -1,0 +1,12 @@
+@use 'app' as v;
+
+.container {
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+
+  padding: 50px;
+}

@@ -1,0 +1,53 @@
+@use 'app' as v;
+
+.container {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  padding: 12px 5px;
+
+  background: v.$blue-color;
+
+  color: white;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  cursor: pointer;
+
+  & svg path {
+    fill: white;
+  }
+
+  &:hover {
+    background: v.$dark-blue-color;
+  }
+}
+
+.left {
+  border-right: 1px solid rgba(255, 255, 255, 0.43);
+  padding: 12px;
+}
+
+.right {
+  border-left: 1px solid rgba(255, 255, 255, 0.43);
+  padding: 12px;
+}
+
+.center {
+  padding: 12px;
+}
+
+.white {
+  background: white;
+  border: 1px solid #3865f8;
+  color: #3865f8;
+}
